@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { TimerService } from './services/timer.service';
 
 
 import { AppComponent } from './app.component';
@@ -12,7 +13,9 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    TimerService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
