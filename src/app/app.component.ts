@@ -30,8 +30,13 @@ export class AppComponent implements OnInit {
     this.ts3.stop(this.threeSecondTick.bind(this));
     console.log('app.component.threeSecondTick!');  ///tick
   }     //ticktock
+
+  threeSecondTick() {
+    this.ts3.stop(this.threeHoursTick.bind(this));
+    console.log('app.component.threeSecondTick!');  ///tick
+  }     //ticktock
 }
 threeSecondTick() {
-  this.ts3.stop(this.threeSecondTick.bind(this));
+  this.ts3.stop(this.threeMinutesTick.bind(this));
   console.log('app.component.threeSecondTick!');  ///tick
 }     //ticktock
