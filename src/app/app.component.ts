@@ -28,7 +28,7 @@ export class AppComponent implements OnInit {
 
   threeSecondTick() {
     this.ts3.stop(this.threeSecondTick.bind(this));
-    console.log('app.component.threeSecondTick!');  ///Tick
+    console.log('app.component.threeSecondTick!');  ///Ticktock
   }
 }
 ////////// Add something here
