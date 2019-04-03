@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
   // new comment (2) (3) (4)
   // trys
   fiveSecondTick() {
-    console.log('app.component.fiveSecondTick!');
+    console.log('app.component.fiveSecondTick!');  ///fivetick
     this.ts3.start(3000, this.threeSecondTick.bind(this));
   }
 
@@ -31,5 +31,7 @@ export class AppComponent implements OnInit {
     console.log('app.component.threeSecondTick!');  ///tick
   }     //ticktock
 }
-////////// Add something here
-// try merge this line
+threeSecondTick() {
+  this.ts3.stop(this.threeSecondTick.bind(this));
+  console.log('app.component.threeSecondTick!');  ///tick
+}     //ticktock
