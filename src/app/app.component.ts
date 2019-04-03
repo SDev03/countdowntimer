@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TimerService } from './services/timer.service';
 
-@Component({ /// today is wednesday
+@Component({ /// today is wednesday tomorrow is thursday
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.less']
@@ -28,7 +28,7 @@ export class AppComponent implements OnInit {
 
   threeSecondTick() {
     this.ts3.stop(this.threeSecondTick.bind(this));
-    console.log('app.component.threeSecondTick!');  ///Ticktock
+    console.log('app.component.threeSecondTick!'); 
   }
 }
 ////////// Add something here
