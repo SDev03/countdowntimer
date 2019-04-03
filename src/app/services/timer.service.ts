@@ -21,7 +21,7 @@ export class TimerService {
   }
 
   public stop(callback) {
-    this.subscription.unsubscribe();
+    this.subscription.unsubscribe(); ///unsubscribing
   }
 
 }
