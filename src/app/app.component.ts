@@ -7,7 +7,8 @@ import { TimerService } from './services/timer.service';
   styleUrls: ['./app.component.less']
 })
 export class AppComponent implements OnInit {
-
+/// edit something here
+  /// comment something here
   title = 'app';
 
   constructor(private ts3: TimerService, private ts5: TimerService) { }
