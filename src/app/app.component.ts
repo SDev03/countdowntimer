@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
     // this.ts3.startWithRepeat(3000, 3000, this.threeSecondTick.bind(this));
     this.ts3.start(3000, this.threeSecondTick.bind(this));
   }
-
+// add new comment from husnul
   fiveSecondTick() {
     console.log('app.component.fiveSecondTick!');
     this.ts3.start(3000, this.threeSecondTick.bind(this));
