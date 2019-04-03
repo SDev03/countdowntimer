@@ -32,3 +32,4 @@ export class AppComponent implements OnInit {
   }     //ticktock
 }
 ////////// Add something here
+// try merge this line
