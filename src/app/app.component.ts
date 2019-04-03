@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TimerService } from './services/timer.service';
 
-@Component({
+@Component({ /// today is wednesday
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.less']
@@ -19,6 +19,8 @@ export class AppComponent implements OnInit {
     this.ts3.start(3000, this.threeSecondTick.bind(this));
   }
 // add new comment from husnul
+  // new comment (2)
+  // try
   fiveSecondTick() {
     console.log('app.component.fiveSecondTick!');
     this.ts3.start(3000, this.threeSecondTick.bind(this));
@@ -29,3 +31,4 @@ export class AppComponent implements OnInit {
     console.log('app.component.threeSecondTick!');  ///Ticktock
   }
 }
+////////// Add something here

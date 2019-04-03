@@ -9,7 +9,6 @@ export class TimerService {
   pauser: any;
 
   constructor() { }
-
   public start(seconds, callback) {
     this.testPlayerTimer =  new TimerObservable(seconds, callback);
     this.subscription = this.testPlayerTimer.subscribe(callback);
@@ -21,7 +20,7 @@ export class TimerService {
   }
 
   public stop(callback) {
-    this.subscription.unsubscribe(); ///unsubscribing
+    this.subscription.unsubscribe(); /// unsubscribing
   }
 
 }
