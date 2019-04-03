@@ -28,8 +28,8 @@ export class AppComponent implements OnInit {
 
   threeSecondTick() {
     this.ts3.stop(this.threeSecondTick.bind(this));
-    console.log('app.component.threeSecondTick!'); 
-  }
+    console.log('app.component.threeSecondTick!');  ///tick
+  }     //ticktock
 }
 ////////// Add something here
 // try merge this line
