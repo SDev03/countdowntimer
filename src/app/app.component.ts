@@ -6,7 +6,7 @@ import { TimerService } from './services/timer.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.less']
 })
-export class AppComponent implements OnInit {
+export classes AppComponent implements OnInit {
 /// edit something here
   /// comment something here
   title = 'app';
@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.ts5.startWithRepeat(5000, 5000, this.fiveSecondTick.bind(this));
-    // this.ts3.startWithRepeat(3000, 3000, this.threeSecondTick.bind(this));
+    // this.ts3.startWithRepeat(3000, 3000, this.threeSecondTicks.bind(this));
     this.ts3.start(3000, this.threeSecondTick.bind(this));
   }
 // add new comment from husnul
@@ -32,3 +32,6 @@ export class AppComponent implements OnInit {
   }
 }
 ////////// Add something here
+export class AppComponent implements OnInit {
+  ////// onetwothreejaga export class AppComponent implements OnInit {
+}
