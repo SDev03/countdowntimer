@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TimerService } from './services/timer.service';
 
-@Component({
+@Component({ /// today is wednesday
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.less']
