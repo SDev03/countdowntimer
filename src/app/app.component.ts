@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
   // new comment (2) (3) (4)
   // trys
   fiveSecondTick() {
-    console.log('app.component.fiveSecondTick!');
+    console.log('app.component.fiveSecondTick!');  ///fivetick
     this.ts3.start(3000, this.threeSecondTick.bind(this));
   }
 
